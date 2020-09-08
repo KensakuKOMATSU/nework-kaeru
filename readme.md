@@ -5,6 +5,7 @@ Unoffical desktop app of nework ( https://nework.app/ ), which is the new-type a
 ## latest binary
 
 * [macOS](https://storage.googleapis.com/nework-kaeru/macOS/nework-kaeru-darwin-x64-0.0.4.zip)
+* [windows](https://storage.googleapis.com/nework-kaeru/macOS/nework-kaeru-win32-x64-0.0.4.zip)
 
 > you need to open `uncertified` app, see more detail - https://support.apple.com/ja-jp/guide/mac-help/mh40616/mac
 
@@ -44,6 +45,10 @@ waiting for your feedback ;)
 * ubuntu
 
 waiting for your PR ;)
+
+## Contributors
+
+* [yoshiya0](https://github.com/yoshiya0) : Helps building windows binary.
 
 ---
 &copy; kensaku komatsu
