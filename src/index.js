@@ -4,7 +4,11 @@ let mainWindow = null
 
 const createWindow = () => {
   mainWindow = new BrowserWindow({width: 1280, height: 720});
-  mainWindow.loadURL('https://nework.app/workspaces/');
+  //mainWindow.loadURL('https://nework.app/workspaces/');
+  mainWindow.loadFile('./main/index.html');
+  if( process.env.NODE_ENV==='development') {
+    mainWindow.webContents.openDevTools();
+  }
 
   mainWindow.on('closed', () => {
     mainWindow = null

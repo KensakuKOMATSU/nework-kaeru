@@ -4,7 +4,7 @@ Unoffical desktop app of nework ( https://nework.app/ ), which is the new-type w
 
 ## latest binary
 
-* [macOS](https://storage.googleapis.com/nework-kaeru/macOS/nework-kaeru-darwin-x64-0.0.1.zip)
+* [macOS](https://storage.googleapis.com/nework-kaeru/macOS/nework-kaeru-darwin-x64-0.0.2.zip)
 
 ## note
 
