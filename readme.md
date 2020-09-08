@@ -1,6 +1,6 @@
 # nework-kaeru
 
-Unoffical desktop app of nework ( https://nework.app/ ), which is the new-type web app of work from home. This app is working on top of electron.
+Unoffical desktop app of nework ( https://nework.app/ ), which is the new-type and innovative web app for improving smoothness of `work from home`. This app is working on top of electron.
 
 ## latest binary
 
