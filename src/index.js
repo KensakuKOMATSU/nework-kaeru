@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, shell } = require('electron')
 
 let mainWindow = null
 
@@ -9,6 +9,11 @@ const createWindow = () => {
   if( process.env.NODE_ENV==='development') {
     mainWindow.webContents.openDevTools();
   }
+
+  mainWindow.webContents.on('new-window', (event, url) => {
+    event.preventDefault();
+    shell.openExternal(url);
+  });
 
   mainWindow.on('closed', () => {
     mainWindow = null

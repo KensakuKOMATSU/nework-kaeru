@@ -4,7 +4,7 @@ Unoffical desktop app of nework ( https://nework.app/ ), which is the new-type a
 
 ## latest binary
 
-* [macOS](https://storage.googleapis.com/nework-kaeru/macOS/nework-kaeru-darwin-x64-0.0.3.zip)
+* [macOS](https://storage.googleapis.com/nework-kaeru/macOS/nework-kaeru-darwin-x64-0.0.4.zip)
 
 > you need to open `uncertified` app, see more detail - https://support.apple.com/ja-jp/guide/mac-help/mh40616/mac
 
