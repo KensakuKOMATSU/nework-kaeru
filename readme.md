@@ -48,7 +48,7 @@ waiting for your PR ;)
 
 ## Contributors
 
-* [yoshiya0](https://github.com/yoshiya0) : Helps building windows binary.
+* [yoshiya0](https://github.com/yoshiya0) : Helped building windows binary.
 
 ---
 &copy; kensaku komatsu
