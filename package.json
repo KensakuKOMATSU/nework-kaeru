@@ -1,0 +1,19 @@
+{
+  "name": "nework-app",
+  "version": "0.0.1",
+  "description": "unofficial nework app using electron",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-packager": "^15.1.0"
+  },
+  "scripts": {
+    "start": "electron ./src",
+    "build-macOS": "electron-packager ./src nework-kaeru --platform=darwin --arch=x64 --overwrite --icon=./src/assets/nework-kaeru.icns",
+    "build-windows": "electron-packager ./src nework-kaeru --platform=win32 --arch=x64 --overwrite --icon=./src/assets/icon_256x256.ico",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kensaku komatsu",
+  "license": "MIT"
+}
