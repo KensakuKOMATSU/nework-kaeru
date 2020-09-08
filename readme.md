@@ -26,6 +26,12 @@ $ npm start
 
 ## how to build
 
+* macOS
+
+```bash
+$ npm run build-macOS
+```
+
 * windows
 
 ```bash
@@ -33,12 +39,11 @@ $ npm run build-windows
 ```
 
 note: not tested yet :p
+waiting for your feedback ;)
 
-* macOS
+* ubuntu
 
-```bash
-$ npm run build-macOS
-```
+waiting for your PR ;)
 
 ---
 &copy; kensaku komatsu
