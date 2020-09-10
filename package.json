@@ -1,6 +1,6 @@
 {
   "name": "nework-app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "unofficial nework app using electron",
   "main": "src/index.js",
   "dependencies": {},

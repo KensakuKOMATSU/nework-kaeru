@@ -13,16 +13,17 @@ const createWindow = () => {
   })
 
   mainWindow = new BrowserWindow({width: 1280, height: 720});
-  //mainWindow.loadURL('https://nework.app/workspaces/');
-  mainWindow.loadFile('./main/index.html');
+  mainWindow.loadURL('https://nework.app/workspaces/');
+  // since, nework set X-Frame-Options: deny; , we cannot use iframe technique.
+  // mainWindow.loadFile('./main/index.html');
   if( process.env.NODE_ENV==='development') {
     mainWindow.webContents.openDevTools();
   }
 
-  // mainWindow.webContents.on('new-window', (event, url) => {
-  //   event.preventDefault();
-  //   shell.openExternal(url);
-  // });
+  mainWindow.webContents.on('new-window', (event, url) => {
+    event.preventDefault();
+    shell.openExternal(url);
+  });
 
   mainWindow.on('closed', () => {
     mainWindow = null
